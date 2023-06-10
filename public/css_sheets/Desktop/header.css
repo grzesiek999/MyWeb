@@ -56,28 +56,22 @@
     text-align: center;
 }
 
-.navigation ul li div .icon{
+.navigation ul li div img{
     position: relative;
     display: block;
-    line-height: 80px;
-    font-size: 3.2rem;
+    width: 55px;
+    height: 55px;
     transition: 0.5s;
     color: var(--icon-color-drakmotive);
-    transform: translateY(4px);
+    transform: translateY(10px);
 }
 
-.navigation ul li div .icon:hover{
-    position: relative;
-    display: block;
-    line-height: 80px;
-    font-size: 3.2rem;
-    transition: 0.5s;
-    color: var(--icon-color-drakmotive);
+.navigation ul li div img:hover{
     cursor: pointer;
 }
 
-.navigation ul li.active div .icon{
-    transform: translateY(-40px);
+.navigation ul li.active div img{
+    transform: translateY(-35px);
     color: var(--icon-color-active-drakmotive);
     cursor: default;
     opacity: 0.75;
@@ -95,11 +89,11 @@
     transition: 0.5s;
     opacity: 0;
     cursor: default;
-    transform: translateY(25px);
+    transform: translateY(50px);
 }
 
 .navigation ul li.active div .text{
-    transform: translateY(-1px);
+    transform: translateY(13px);
     opacity: 1;
 }
 

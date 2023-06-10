@@ -8,26 +8,41 @@ footer {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 600px;
-    height: 100px;
+    width: 450px;
+    height: 105px;
     border-radius: 16px;
     overflow: hidden;
-
 }
 
 .social-inside-container-div {
     position: absolute;
     inset: 4px;
+    padding-top: 15px;
     border-radius: 14px;
     z-index: 2;
     display: flex;
     justify-content: center;
-    background: black; 
+    background: var(--footer-background-color-darkmotive); 
+}
+
+.social {
+    margin-right: 40px;
 }
 
 .social img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    opacity: 0.9;
+    transition: all 0.6s ease-in-out;
+}
+
+.social img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#in {
+    margin-right: 0;
 }
 
 .border_line {
@@ -42,8 +57,8 @@ footer {
     top: -20vh;
     right: 18vw;
     width: 500px;
-    height: 900px;
-    background: linear-gradient(0deg, transparent, transparent, white, white, white);
+    height: 500px;
+    background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive));
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -55,8 +70,8 @@ footer {
     top: -20vh;
     right: 18vw;
     width: 500px;
-    height: 900px;
-    background: linear-gradient(0deg, transparent, transparent, white, white, white);
+    height: 500px;
+    background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive));
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
