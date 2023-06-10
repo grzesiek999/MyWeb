@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/Animations.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/header.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/Footer.css">
+    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/aboutMe.css">
 
 
     <script async src="./public/scripts/nav.js"></script>
@@ -21,8 +22,11 @@
 <body>
     <? include("./public/views/header.html") ?>
 
-        
-    
+    <main>
+
+        <? include("./public/views/aboutMe.html") ?>
+
+    </main>
 
     <? include("./public/views/footer.html") ?>
 </body>
