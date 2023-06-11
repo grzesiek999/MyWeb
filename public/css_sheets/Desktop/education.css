@@ -1,0 +1,90 @@
+.education-content {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: context-load-animation 3.5s;
+}
+
+.education-container {
+    margin-top: 60px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-achievements-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 1000px;
+    height: 600px;
+}
+
+.education-achievement-cover {
+    margin-bottom: 25px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    background-color: var(--education-achievement-background-color-darkmotive);
+    border: 3px solid var(--border-liner-color-1-darkmotive);
+    padding: 12px 0px;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.education-achievement-cover-active {
+    margin-bottom: 25px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    cursor: pointer;
+    background-color: var(--hover-education-achievement-color-darkmotive);
+    border: 3px solid var(--border-liner-color-1-darkmotive);
+    padding: 12px 0px;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.education-achievement-cover:hover {
+    cursor: pointer;
+    background-color: var(--hover-education-achievement-color-darkmotive);
+}
+
+.achievement-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    margin-left: 50px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: var(--text-color-2-darkmotive);
+    -webkit-text-stroke: 1px var(--text-color-3-darkmotive);
+}
+
+.date {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', serif;
+    color: var(--text-color-1-darkmotive);
+}
+
+#lo .date {
+    margin-left: 400px;
+}
+
+#studies .date {
+    margin-left: 246px;
+}
+
+.achievement-context {
+    margin: 10px 25px 0px 40px;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid var(--border-liner-color-1-darkmotive);
+    cursor: default;
+}

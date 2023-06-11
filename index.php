@@ -14,11 +14,13 @@
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/Footer.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/aboutMe.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/skills.css">
+    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/education.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/contact.css">
 
     <script async src="./public/scripts/main.js"></script>
     <script async src="./public/scripts/nav.js"></script>
     <script async src="./public/scripts/skills.js"></script>
+    <script async src="./public/scripts/education.js"></script>
 
 
 </head>

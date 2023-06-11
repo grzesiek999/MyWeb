@@ -3,14 +3,14 @@
     --text-color-1-darkmotive: #FFFFFF;
     --text-color-2-darkmotive: #000000;
     --text-color-3-darkmotive: wheat;
-    --icon-color-drakmotive: #f8f8ff;
-    --icon-color-active-drakmotive: #000000;
     --body-background-color-darkmotive: rgb(22, 23, 24);
     --nav-background-color-darkmotive: #242526;
     --footer-background-color-darkmotive: #111111;
+    --education-achievement-background-color-darkmotive: #111111;
     --shadow-color-1-darkmotive: hsla(0, 0%, 0%, 0.9);
     --shadow-color-2-darkomotive: #300a24;
     --border-liner-color-1-darkmotive: #000000;
+    --hover-education-achievement-color-darkmotive: #222222;
 
     --whitemotive: #FFFFFF;
 }
