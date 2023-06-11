@@ -32,6 +32,7 @@ body::-webkit-scrollbar{
 
 h2 {
     min-width: 100%;
+    opacity: 0.95;
     color: var(--text-color-2-darkmotive);
     text-align: center;
     font-family: 'Times New Roman', serif;

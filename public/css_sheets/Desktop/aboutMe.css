@@ -2,6 +2,7 @@
     min-width: 100%;
     display: flex;
     justify-content: center;
+    animation: context-load-animation 5s;
 }
 
 .aboutMe-container {
