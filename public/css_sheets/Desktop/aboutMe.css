@@ -19,7 +19,7 @@
 
 .photo-div-container {
     width: 300px;
-    height: 525px;
+    height: 575px;
     padding-top: 25px;
     display: flex;
     justify-content: center;
@@ -39,6 +39,7 @@
 .text-div-container {
     margin-left: 50px;
     width: 625px;
+    height: 600px;
     padding-right: 25px;
 }
 

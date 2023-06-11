@@ -13,8 +13,9 @@
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/header.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/Footer.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/aboutMe.css">
+    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/contact.css">
 
-
+    <script async src="./public/scripts/main.js"></script>
     <script async src="./public/scripts/nav.js"></script>
 
 
@@ -25,6 +26,10 @@
     <main>
 
         <? include("./public/views/aboutMe.html") ?>
+        <? include("./public/views/skills.html") ?>
+        <? include("./public/views/offer.html") ?>
+        <? include("./public/views/education.html") ?>
+        <? include("./public/views/contact.html") ?>
 
     </main>
 

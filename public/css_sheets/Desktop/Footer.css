@@ -8,7 +8,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 450px;
+    width: 500px;
     height: 105px;
     border-radius: 16px;
     overflow: hidden;
@@ -26,7 +26,7 @@ footer {
 }
 
 .social {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .social img {
