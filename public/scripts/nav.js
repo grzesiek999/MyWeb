@@ -2,12 +2,27 @@ const navElements = document.querySelectorAll('.list');
 const switchSound = new Audio("public/voices/change_tab.mp3");
 
 
+function hiddenActive(){
+    document.querySelector('#lo_desc').style.display="none";
+    document.querySelector('#lo').classList.remove('education-achievement-cover-active');
+    document.querySelector('#lo').classList.add('education-achievement-cover');
+
+    document.querySelector('#jsCourse_desc').style.display="none";
+    document.querySelector('#jsCourse').classList.remove('education-achievement-cover-active');
+    document.querySelector('#jsCourse').classList.add('education-achievement-cover');
+
+    document.querySelector('#studies_desc').style.display="none";
+    document.querySelector('#studies').classList.remove('education-achievement-cover-active');
+    document.querySelector('#studies').classList.add('education-achievement-cover');
+}
+
 function display_container(container_id) {
     if (container_id == "about_me") {
         for(let i = 1; i <= 5; i++){
             if (i == 1) document.querySelector("#c"+i).style.display="flex";
             else document.querySelector("#c"+i).style.display="none";
         }
+        hiddenActive();
     }
 
     else if (container_id == "skills") {
@@ -15,6 +30,7 @@ function display_container(container_id) {
             if (i == 2) document.querySelector("#c"+i).style.display="flex";
             else document.querySelector("#c"+i).style.display="none";
         }
+        hiddenActive();
     }
 
     else if (container_id == "offer") {
@@ -22,6 +38,7 @@ function display_container(container_id) {
             if (i == 3) document.querySelector("#c"+i).style.display="flex";
             else document.querySelector("#c"+i).style.display="none";
         }
+        hiddenActive();
     }
 
     else if (container_id == "education") {
@@ -36,6 +53,7 @@ function display_container(container_id) {
             if (i == 5) document.querySelector("#c"+i).style.display="flex";
             else document.querySelector("#c"+i).style.display="none";
         }
+        hiddenActive();
     }
 }
 
