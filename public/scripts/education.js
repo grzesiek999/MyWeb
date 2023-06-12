@@ -1,4 +1,5 @@
 const educationAchievementsCover = document.querySelectorAll('.education-achievement-cover');
+const showVoice = new Audio("public/voices/show_education_achievement.wav");
 
 
 function show_describe() {
@@ -13,6 +14,7 @@ function show_describe() {
             document.querySelector('#jsCourse').classList.remove('education-achievement-cover-active');
             document.querySelector('#jsCourse').classList.add('education-achievement-cover');
 
+            showVoice.play();
             document.querySelector('#lo').classList.remove('education-achievement-cover');
             document.querySelector('#lo').classList.add('education-achievement-cover-active');
             document.querySelector('#lo_desc').style.display="flex";
@@ -35,6 +37,7 @@ function show_describe() {
             document.querySelector('#jsCourse').classList.remove('education-achievement-cover-active');
             document.querySelector('#jsCourse').classList.add('education-achievement-cover');
 
+            showVoice.play();
             document.querySelector('#studies').classList.remove('education-achievement-cover');
             document.querySelector('#studies').classList.add('education-achievement-cover-active');
             document.querySelector('#studies_desc').style.display="flex";
@@ -57,6 +60,7 @@ function show_describe() {
             document.querySelector('#studies').classList.remove('education-achievement-cover-active');
             document.querySelector('#studies').classList.add('education-achievement-cover');
 
+            showVoice.play();
             document.querySelector('#jsCourse').classList.remove('education-achievement-cover');
             document.querySelector('#jsCourse').classList.add('education-achievement-cover-active');
             document.querySelector('#jsCourse_desc').style.display="flex";

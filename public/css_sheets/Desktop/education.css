@@ -145,10 +145,18 @@
 
 #jsCourse>#jsCourse_desc>a {
     margin-left: 75px;
-    padding-top: 5px;
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
 }
 
 #jsCourse>#jsCourse_desc>a>img {
     width: 60px;
     height: 60px;
+    transition: transform 0.6s ease-in-out;
+}
+
+#jsCourse>#jsCourse_desc>a>img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
