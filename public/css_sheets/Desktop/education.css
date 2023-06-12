@@ -77,7 +77,11 @@
 }
 
 #studies .date {
-    margin-left: 246px;
+    margin-left: 238px;
+}
+
+#jsCourse .date {
+    margin-left: 403px;
 }
 
 .achievement-context {
@@ -97,9 +101,38 @@
     color: var(--text-color-1-darkmotive);
 }
 
-.photo-linked img {
+#lo .photo-linked {
+    margin-left: 195px;
+}
+
+#lo .photo-linked img {
     width: 100px;
     height: 100px;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+#jsCourse .photo-linked {
+    margin-left: 202px;
+}
+
+#jsCourse .photo-linked img {
+    width: 150px;
+    height: 89px;
+    opacity: 0.9;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+#studies .photo-linked {
+    margin-left: 50px;
+}
+
+#studies .photo-linked img {
+    width: 75px;
+    height: 75px;
     opacity: 0.9;
     cursor: pointer;
     transition: all 0.6s ease-in-out;
@@ -108,4 +141,14 @@
 .photo-linked img:hover {
     opacity: 1;
     transform: scale(1.1);
+}
+
+#jsCourse>#jsCourse_desc>a {
+    margin-left: 75px;
+    padding-top: 5px;
+}
+
+#jsCourse>#jsCourse_desc>a>img {
+    width: 60px;
+    height: 60px;
 }
