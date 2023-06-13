@@ -8,11 +8,35 @@
     --footer-background-color-darkmotive: #111111;
     --education-achievement-background-color-darkmotive: #111111;
     --shadow-color-1-darkmotive: hsla(0, 0%, 0%, 0.9);
-    --shadow-color-2-darkomotive: #300a24;
+    --shadow-color-2-darkmotive: #300a24;
     --border-liner-color-1-darkmotive: #000000;
     --hover-education-achievement-color-darkmotive: #222222;
 
     --whitemotive: #FFFFFF;
+    --text-color-1-whitemotive: #300a24;
+    --text-color-2-whitemotive: wheat;
+    --text-color-3-whitemotive: #300a24;
+    --body-background-color-whitemotive: #fffae3;
+    --nav-background-color-whitemotive: #fef8ca;
+    --footer-background-color-whitemotive: #300a24;
+    --education-achievement-background-color-whitemotive: #fef8ca;
+    --shadow-color-1-whitemotive: hsla(0, 0%, 0%, 0.9);
+    --shadow-color-2-whitemotive: #300a24;
+    --border-liner-color-1-whitemotive: #300a24;
+    --hover-education-achievement-color-whitemotive: #fdf8ce;
+
+    --motive: var(--whitemotive);
+    --text-color-1: var(--text-color-1-darkmotive);
+    --text-color-2: var(--text-color-2-darkmotive);
+    --text-color-3: var(--text-color-3-darkmotive);
+    --body-background-color: var(--body-background-color-darkmotive);
+    --nav-background-color: var(--nav-background-color-darkmotive);
+    --footer-background-color: var(--footer-background-color-darkmotive);
+    --education-achievement-background-color: var(--education-achievement-background-color-darkmotive);
+    --shadow-color-1: var(--shadow-color-1-darkmotive);
+    --shadow-color-2: var(--shadow-color-2-darkmotive);
+    --border-liner-color-1: var(--border-liner-color-1-darkmotive);
+    --hover-education-achievement-color: var(--hover-education-achievement-color-darkmotive);
 }
 
 * {
@@ -21,7 +45,7 @@
 }
 
 body {
-    background-color: var(--body-background-color-darkmotive);
+    background-color: var(--body-background-color);
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
@@ -33,12 +57,12 @@ body::-webkit-scrollbar{
 h2 {
     min-width: 100%;
     opacity: 0.95;
-    color: var(--text-color-2-darkmotive);
+    color: var(--text-color-2);
     text-align: center;
     font-family: 'Times New Roman', serif;
     font-size: 3rem;
     letter-spacing: 2px;
-    -webkit-text-stroke: 2px var(--text-color-1-darkmotive);
+    -webkit-text-stroke: 2px var(--text-color-1);
 }
 
 h3 {
@@ -46,8 +70,8 @@ h3 {
     font-family: 'Times New Roman', serif;
     font-size: 2.2rem;
     letter-spacing: 2px;
-    color: var(--text-color-2-darkmotive);
-    -webkit-text-stroke: 1px var(--text-color-3-darkmotive);
+    color: var(--text-color-2);
+    -webkit-text-stroke: 1px var(--text-color-3);
 }
 
 h4 {
@@ -55,6 +79,10 @@ h4 {
     font-family: 'Times New Roman', serif;
     font-size: 1.75rem;
     letter-spacing: 1px;
-    color: var(--text-color-2-darkmotive);
-    -webkit-text-stroke: 1px var(--text-color-3-darkmotive);
+    color: var(--text-color-2);
+    -webkit-text-stroke: 1px var(--text-color-3);
+}
+
+.reflesh-effect {
+    animation: reflesh-animation 1.5s ease-in-out forwards;
 }

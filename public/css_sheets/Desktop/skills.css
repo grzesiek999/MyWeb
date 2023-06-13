@@ -22,7 +22,7 @@
 
 .skills-content ul {
     opacity: 0.9;
-    color: var(--text-color-3-darkmotive);
+    color: var(--text-color-3);
     list-style: none;
     text-align: left;
     font-size: 1.6rem;

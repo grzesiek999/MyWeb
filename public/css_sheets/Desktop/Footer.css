@@ -22,7 +22,7 @@ footer {
     z-index: 2;
     display: flex;
     justify-content: center;
-    background: var(--footer-background-color-darkmotive); 
+    background: var(--footer-background-color); 
 }
 
 .social {
@@ -58,7 +58,7 @@ footer {
     right: 18vw;
     width: 500px;
     height: 500px;
-    background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive));
+    background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1), var(--border-liner-color-1), var(--border-liner-color-1));
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -71,7 +71,7 @@ footer {
     right: 18vw;
     width: 500px;
     height: 500px;
-    background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive), var(--border-liner-color-1-darkmotive));
+    background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1), var(--border-liner-color-1), var(--border-liner-color-1));
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;

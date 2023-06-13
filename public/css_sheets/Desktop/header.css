@@ -11,7 +11,7 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: var(--whitemotive);
+    background-color: var(--motive);
     border: none;
     outline: none;
     cursor: pointer;
@@ -23,14 +23,14 @@
     margin-right: auto;
     width: 900px;
     height: 85px;
-    background: var(--nav-background-color-darkmotive);
+    background: var(--nav-background-color);
     display: flex;
     justify-content: center;  
     align-items: center;
     border-radius: 40px;
-    -webkit-box-shadow: 0px 0px 20px 0px var(--shadow-color-1-darkmotive);
-    -moz-box-shadow: 0px 0px 20px 0px var(--shadow-color-1-darkmotive);
-    box-shadow: 0px 0px 20px 0px var(--shadow-color-1-darkmotive);
+    -webkit-box-shadow: 0px 0px 20px 0px var(--shadow-color-1);
+    -moz-box-shadow: 0px 0px 20px 0px var(--shadow-color-1);
+    box-shadow: 0px 0px 20px 0px var(--shadow-color-1);
 }
 
 .navigation ul {
@@ -77,8 +77,8 @@
 
 .navigation ul li div .text{
     position: absolute;
-    background-color: var(--nav-background-color-darkmotive);
-    color: var(--text-color-1-darkmotive);
+    background-color: var(--nav-background-color);
+    color: var(--text-color-1);
     padding: 2% 4%;
     border-radius: 12px;
     font-family: 'Times New Roman', serif;
@@ -101,7 +101,7 @@
     height: 100px;
     top: -50%;
     left: 60px;
-    background: var(--nav-background-color-darkmotive);
+    background: var(--nav-background-color);
     border-radius: 50%;
     z-index: 1;
     transition: 0.5s;
@@ -116,7 +116,7 @@
     height: 50px;
     background: transparent;
     border-radius: 50%;
-    box-shadow: 22px 40px var(--nav-background-color-darkmotive);
+    box-shadow: 22px 40px var(--nav-background-color);
 }
 
 .indicator::after {
@@ -128,7 +128,7 @@
     height: 50px;
     background: transparent;
     border-radius: 50%;
-    box-shadow: -22px 40px var(--nav-background-color-darkmotive);
+    box-shadow: -22px 40px var(--nav-background-color);
 }
 
 .navigation ul li:nth-child(1).active ~ .indicator {

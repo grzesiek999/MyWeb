@@ -1,0 +1,13 @@
+.offer-content {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: context-load-animation 3.5s;
+}
+
+.offer-container {
+    margin-top: 60px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}

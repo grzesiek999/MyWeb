@@ -22,8 +22,9 @@
 .contact-div-container p {
     margin-bottom: 15px;
     font-size: 1.45rem;
+    font-family: 'Times New Roman', serif;
     letter-spacing: 1px;
-    color: var(--text-color-1-darkmotive);
+    color: var(--text-color-1);
 }
 
 .contact-div-container img {
@@ -40,13 +41,14 @@
 
 .map {
     margin-right: 25px;
+    margin-top: 15px;
     width: 600px;
 }
 
 .map iframe{
-    -webkit-box-shadow: 0px 0px 40px 10px var(--shadow-color-2-darkomotive);
-    -moz-box-shadow: 0px 0px 40px 10px var(--shadow-color-2-darkomotive);
-    box-shadow: 0px 0px 40px 10px var(--shadow-color-2-darkomotive);
-    border: 3px solid var(--shadow-color-2-darkomotive);
+    -webkit-box-shadow: 0px 0px 40px 10px var(--shadow-color-2);
+    -moz-box-shadow: 0px 0px 40px 10px var(--shadow-color-2);
+    box-shadow: 0px 0px 40px 10px var(--shadow-color-2);
+    border: 2px solid var(--shadow-color-2);
     border-radius: 24px;
 }
