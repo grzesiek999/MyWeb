@@ -83,6 +83,13 @@ h4 {
     -webkit-text-stroke: 1px var(--text-color-3);
 }
 
+h5 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    color: var(--text-color-1);
+}
+
 .reflesh-effect {
     animation: reflesh-animation 1.5s ease-in-out forwards;
 }

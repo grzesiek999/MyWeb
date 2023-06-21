@@ -24,6 +24,7 @@
     <script async src="./public/scripts/nav.js"></script>
     <script async src="./public/scripts/skills.js"></script>
     <script async src="./public/scripts/education.js"></script>
+    <script async src="./public/scripts/offer.js"></script>
 
 
 </head>
