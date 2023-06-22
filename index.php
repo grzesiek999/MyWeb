@@ -11,13 +11,14 @@
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Main.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/Animations.css">
 
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/header.css">
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/Footer.css">
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/aboutMe.css">
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/skills.css">
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/offer.css">
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/education.css">
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/contact.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/desktopMain.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/header.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/Footer.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/aboutMe.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/skills.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/offer.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/education.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/contact.css">
 
 
     <script async src="./public/scripts/main.js"></script>
@@ -44,3 +45,5 @@
     <? include("./public/views/footer.html") ?>
 </body>
 </html>
+
+

@@ -12,6 +12,15 @@
     flex-direction: column;
 }
 
+@media only screen and (max-width: 1100px) {
+    .aboutMe-container {
+        margin-top: 60px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .context-div-container {
     display: flex;
     flex-direction: row;
@@ -26,6 +35,16 @@
     justify-content: center;
 }
 
+@media only screen and (max-width: 1100px) {
+    .photo-div-container {
+        width: 240px;
+        height: 575px;
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .photo-div-container img {
     width: 236px;
     height: 296px;
@@ -37,11 +56,33 @@
     border: 2px solid var(--shadow-color-2);
 }
 
+@media only screen and (max-width: 1100px) {
+    .photo-div-container img {
+        width: 189px;
+        height: 237px;
+        border-radius: 20%;
+        animation: photo-animation 3.5s infinite;
+        -webkit-box-shadow: 0px 0px 32px 8px var(--shadow-color-2);
+        -moz-box-shadow: 0px 0px 32px 8px var(--shadow-color-2);
+        box-shadow: 0px 0px 32px 8px var(--shadow-color-2);
+        border: 2px solid var(--shadow-color-2);
+    }
+}
+
 .text-div-container {
     margin-left: 50px;
     width: 625px;
     height: 600px;
     padding-right: 25px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .text-div-container {
+        margin-left: 40px;
+        width: 500px;
+        height: 600px;
+        padding-right: 20px;
+    }
 }
 
 .text-div-container p {
@@ -54,4 +95,18 @@
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: var(--text-color-3);
+}
+
+@media only screen and (max-width: 1100px) {
+    .text-div-container p {
+        opacity: 0.9;
+        text-indent: 60px;
+        line-height: 24px;
+        margin-bottom: 9px;
+        text-align: justify;
+        font-family: 'Times New Roman', serif;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        color: var(--text-color-3);
+    }
 }
