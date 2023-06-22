@@ -48,6 +48,7 @@
     margin-bottom: 20px;
     padding: 20px 20px 0px 20px;
     width: 400px;
+    border: 3px solid var(--border-liner-color-1);
     background-color: var(--hover-education-achievement-color);
     border-radius: 10px;
     cursor: pointer;
