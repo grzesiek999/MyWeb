@@ -14,18 +14,6 @@ footer {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 1100px) {
-    .socials-container-div {
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        width: 400px;
-        height: 86px;
-        border-radius: 16px;
-        overflow: hidden;
-    }
-}
-
 .social-inside-container-div {
     position: absolute;
     inset: 4px;
@@ -37,27 +25,8 @@ footer {
     background: var(--footer-background-color); 
 }
 
-@media only screen and (max-width: 1100px) {
-    .social-inside-container-div {
-        position: absolute;
-        inset: 4px;
-        padding-top: 12px;
-        border-radius: 14px;
-        z-index: 2;
-        display: flex;
-        justify-content: center;
-        background: var(--footer-background-color); 
-    }
-}
-
 .social {
     margin-right: 50px;
-}
-
-@media only screen and (max-width: 1100px) {
-    .social {
-        margin-right: 40px;
-    }
 }
 
 .social img {
@@ -67,18 +36,9 @@ footer {
     transition: all 0.6s ease-in-out;
 }
 
-@media only screen and (max-width: 1100px) {
-    .social img {
-        width: 48px;
-        height: 48px;
-        opacity: 0.9;
-        transition: all 0.6s ease-in-out;
-    }
-}
-
 .social img:hover {
     opacity: 1;
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 
 #in {
@@ -116,39 +76,4 @@ footer {
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
-}
-
-@media only screen and (max-width: 1100px) {
-    .border_line {
-        position: absolute;
-        top: 0;
-        inset: 0;
-    }
-    
-    .border_line::before {
-        content: '';
-        position: absolute;
-        top: -20vh;
-        right: 18vw;
-        width: 400px;
-        height: 400px;
-        background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1), var(--border-liner-color-1), var(--border-liner-color-1));
-        z-index: 1;
-        transform-origin: bottom right;
-        animation: animate 6s linear infinite;
-    }
-    
-    .border_line::after {
-        content: '';
-        position: absolute;
-        top: -20vh;
-        right: 18vw;
-        width: 400px;
-        height: 400px;
-        background: linear-gradient(0deg, transparent, transparent, var(--border-liner-color-1), var(--border-liner-color-1), var(--border-liner-color-1));
-        z-index: 1;
-        transform-origin: bottom right;
-        animation: animate 6s linear infinite;
-        animation-delay: -3s;
-    }
 }
