@@ -9,7 +9,16 @@
 
 
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Main.css">
-    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Desktop/Animations.css">
+    <link rel="stylesheet" type="text/css" href="./public/css_sheets/Animations.css">
+
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/desktopMain.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/header.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/Footer.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/aboutMe.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/skills.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/offer.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/education.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/contact.css">
 
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/desktopMain.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/header.css">
