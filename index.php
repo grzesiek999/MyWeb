@@ -32,6 +32,7 @@
 
     <script async src="./public/scripts/main.js"></script>
     <script async src="./public/scripts/nav.js"></script>
+    <script async src="./public/scripts/navMobile.js"></script>
     <script async src="./public/scripts/skills.js"></script>
     <script async src="./public/scripts/education.js"></script>
     <script async src="./public/scripts/offer.js"></script>
@@ -39,19 +40,17 @@
 
 </head>
 <body>
+
     <? include("./public/views/header.html") ?>
-
     <main>
-
         <? include("./public/views/aboutMe.html") ?>
         <? include("./public/views/skills.html") ?>
         <? include("./public/views/offer.html") ?>
         <? include("./public/views/education.html") ?>
         <? include("./public/views/contact.html") ?>
-
-    </main>
-
+    </main>    
     <? include("./public/views/footer.html") ?>
+    
 </body>
 </html>
 
