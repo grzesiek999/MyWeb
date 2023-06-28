@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Main.css">
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Animations.css">
 
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/desktopMain.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/mobileMain.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/header.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/Footer.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/aboutMe.css">

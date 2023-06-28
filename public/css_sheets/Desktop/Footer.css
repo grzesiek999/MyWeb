@@ -1,4 +1,9 @@
-footer {
+.mobile-footer {
+    display: none;
+}
+
+.desktop-footer {
+    display: flex;
     position: fixed;
     bottom: -15px;
     min-width: 100%;

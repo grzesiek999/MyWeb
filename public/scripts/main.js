@@ -46,3 +46,12 @@ function change_motive() {
 changeMotiveButton.addEventListener('click', change_motive);
 
 copyEmail.addEventListener('click', copy_email);
+
+window.addEventListener('scroll', function() {
+    var element = document.querySelector('.mobile-socials-container-div');
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        element.style.display = 'flex';
+    } else {
+        element.style.display = 'none';
+    }
+});

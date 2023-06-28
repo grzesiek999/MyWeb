@@ -1,8 +1,8 @@
-.mobile {
+.mobile-header {
     display: none;
 }
 
-.desktop {
+.desktop-header {
     display: flex;
     flex-direction: column;
 }
