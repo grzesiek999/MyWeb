@@ -19,6 +19,18 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width: 900px) {
+    .socials-container-div {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 430px;
+        height: 105px;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+}
+
 .social-inside-container-div {
     position: absolute;
     inset: 4px;
@@ -33,6 +45,13 @@
 .social {
     margin-right: 50px;
 }
+
+@media only screen and (max-width: 900px) {
+    .social {
+        margin-right: 35px;
+    }
+}
+
 
 .social img {
     width: 60px;
