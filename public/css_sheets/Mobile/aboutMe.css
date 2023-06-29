@@ -8,12 +8,12 @@
 
 .aboutMe-container {
     min-width: 100%;
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 699px) {
     .aboutMe-container {
         min-width: 100%;
         margin-top: 35px;
@@ -24,18 +24,41 @@
 
 .context-div-container {
     min-width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 699px) {
+    .context-div-container {
+        min-width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .photo-div-container {
-    min-width: 100%;
+    margin-left: 30px;
+    margin-top: 60px;
+    min-width: 210px;
     height: 260px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media only screen and (max-width: 699px) {
+    .photo-div-container {
+        margin-left: 0px;
+        margin-top: 0px;
+        min-width: 100%;
+        height: 260px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 .photo-div-container img {
@@ -50,7 +73,13 @@
 }
 
 .text-div-container {
-    margin: 20px 35px;
+    margin: 0px 30px;
+}
+
+@media only screen and (max-width: 699px) {
+    .text-div-container {
+        margin: 20px 35px;
+    }
 }
 
 .text-div-container p {
