@@ -1,0 +1,107 @@
+.contact-content {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: context-load-animation 3.5s;
+}
+
+.contact-container {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 699px) {
+    .contact-container {
+        margin-top: 35px;
+        margin-bottom: 120px;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.contact-container > .context-div-container {
+    min-width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-div-container {
+    margin-right: 0px;
+    margin-left: 0px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-div-container p {
+    margin-bottom: 15px;
+    font-size: 1.55rem;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: var(--text-color-1);
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-div-container p {
+        margin-bottom: 15px;
+        font-size: 1.35rem;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 1px;
+        color: var(--text-color-1);
+    }
+}
+
+.contact-div-container img {
+    margin-left: 40px;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 699px) {
+    .contact-div-container img {
+        margin-left: 20px;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+}
+
+.map {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 25px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 699px) {
+    .map {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 25px;
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.map iframe{
+    width: 85%;
+    -webkit-box-shadow: 0px 0px 32px 8px var(--shadow-color-2);
+    -moz-box-shadow: 0px 0px 32px 8px var(--shadow-color-2);
+    box-shadow: 0px 0px 32px 8px var(--shadow-color-2);
+    border: 2px solid var(--shadow-color-2);
+    border-radius: 24px;
+}
