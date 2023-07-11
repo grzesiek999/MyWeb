@@ -1,0 +1,120 @@
+.skills-content {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: context-load-animation 3.5s;
+}
+
+.skills-container {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-list-div-container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 0px 40px;
+}
+
+@media only screen and (max-width: 699px) {
+    .skills-list-div-container {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 20px 0px 20px;
+    }
+}
+
+.skills-content ul {
+    opacity: 0.9;
+    color: var(--text-color-3);
+    list-style: none;
+    text-align: left;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 699px) {
+    .skills-content ul {
+        opacity: 0.9;
+        color: var(--text-color-3);
+        list-style: none;
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .skills-content ul {
+        opacity: 0.9;
+        color: var(--text-color-3);
+        list-style: none;
+        text-align: center;
+        font-size: 1.45rem;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 1px;
+    }
+}
+
+.skills-content ul li {
+    margin-bottom: 15px;
+}
+
+.list-lef-part {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+@media only screen and (max-width: 699px) {
+    .list-lef-part {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+}
+
+.list-right-part {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+@media only screen and (max-width: 699px) {
+    .list-right-part {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+}
+
+.skills-content ul li#a1, li#a2, li#a3, li#a4, li#a5, li#a6, li#a7, li#a8, li#a9, li#a10{
+    opacity: 0;
+    animation: context-load-animation 3s;
+    animation-fill-mode: forwards;
+}
+
+.skills-content ul li#a19, li#a11, li#a12, li#a13, li#a14, li#a15, li#a16, li#a17, li#a18{
+    opacity: 0;
+    animation: context-load-animation 3s;
+    animation-fill-mode: forwards;
+}
+
+.skill-miniature {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 350px) {
+    .skill-miniature {
+        margin-right: 10px;
+        width: 23px;
+        height: 23px;
+    }
+}
