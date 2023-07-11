@@ -1,0 +1,145 @@
+.offer-content {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: context-load-animation 3.5s;
+}
+
+.offer-container {
+    margin-top: 70px;
+    margin-bottom: 120px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offerts-context {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.oferts {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.offer-box {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 20px 20px;
+    width: 450px;
+    border: 3px solid var(--border-liner-color-1);
+    background-color: var(--education-achievement-background-color);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 699px) {
+    .offer-box {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 20px 20px;
+        width: 300px;
+        border: 3px solid var(--border-liner-color-1);
+        background-color: var(--education-achievement-background-color);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .offer-box {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 20px 20px;
+        width: 250px;
+        border: 3px solid var(--border-liner-color-1);
+        background-color: var(--education-achievement-background-color);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .offer-box {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 20px 20px;
+        width: 220px;
+        border: 3px solid var(--border-liner-color-1);
+        background-color: var(--education-achievement-background-color);
+        border-radius: 10px;
+    }
+}
+
+.offer-box-active {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 20px 20px 0px 20px;
+    width: 450px;
+    border: 3px solid var(--border-liner-color-1);
+    background-color: var(--hover-education-achievement-color);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 699px) {
+    .offer-box-active {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 20px 20px 0px 20px;
+        width: 300px;
+        border: 3px solid var(--border-liner-color-1);
+        background-color: var(--hover-education-achievement-color);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .offer-box-active {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 20px 20px 0px 20px;
+        width: 250px;
+        border: 3px solid var(--border-liner-color-1);
+        background-color: var(--hover-education-achievement-color);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .offer-box-active {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        padding: 20px 20px 0px 20px;
+        width: 220px;
+        border: 3px solid var(--border-liner-color-1);
+        background-color: var(--hover-education-achievement-color);
+        border-radius: 10px;
+    }
+}
+
+.offer-title {
+    font-size: 1.75rem;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: var(--text-color-2);
+    -webkit-text-stroke: 1px var(--text-color-3);
+}
+
+.offer-information {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid var(--border-liner-color-1);
+}
+
+.offer-describe p{
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: var(--text-color-1);
+}

@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/mobileMain.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/header.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 699px)" href="./public/css_sheets/Mobile/Footer.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 549px)" href="./public/css_sheets/Mobile/Footer.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/aboutMe.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/skills.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="./public/css_sheets/Mobile/offer.css">
@@ -22,7 +22,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/desktopMain.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/header.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 700px)" href="./public/css_sheets/Desktop/Footer.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 550px)" href="./public/css_sheets/Desktop/Footer.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/aboutMe.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/skills.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/offer.css">

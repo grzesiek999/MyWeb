@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     animation: context-load-animation 5s;
-    margin-bottom: 70px;
+    margin-bottom: 85px;
 }
 
 .aboutMe-container {
     min-width: 100%;
-    margin-top: 60px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
 }
@@ -16,7 +16,7 @@
 @media only screen and (max-width: 699px) {
     .aboutMe-container {
         min-width: 100%;
-        margin-top: 35px;
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
     }
@@ -32,7 +32,7 @@
 @media only screen and (max-width: 699px) {
     .aboutMe-container > .context-div-container {
         min-width: 100%;
-        margin-top: 30px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -78,7 +78,7 @@
 
 @media only screen and (max-width: 699px) {
     .text-div-container {
-        margin: 20px 35px;
+        margin: 35px 35px;
     }
 }
 
@@ -89,7 +89,35 @@
     margin-bottom: 11px;
     text-align: center;
     font-family: 'Times New Roman', serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 1px;
     color: var(--text-color-3);
+}
+
+@media only screen and (max-width: 500px) {
+    .text-div-container p {
+        opacity: 0.9;
+        text-indent: 25px;
+        line-height: 25px;
+        margin-bottom: 11px;
+        text-align: center;
+        font-family: 'Times New Roman', serif;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        color: var(--text-color-3);
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .text-div-container p {
+        opacity: 0.9;
+        text-indent: 25px;
+        line-height: 25px;
+        margin-bottom: 11px;
+        text-align: center;
+        font-family: 'Times New Roman', serif;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        color: var(--text-color-3);
+    }
 }
