@@ -8,7 +8,7 @@
 	top: 0;
     min-width: 100%;
     display: flex;
-    background-color: var(--footer-background-color);
+    background-color: var(--mobile-nav-background-color);
     -webkit-box-shadow: 0px 0px 30px 8px var(--shadow-color-1);
     -moz-box-shadow: 0px 0px 30px 8px var(--shadow-color-1);
     box-shadow: 0px 0px 30px 8px var(--shadow-color-1);
@@ -22,7 +22,7 @@
         top: 0;
         min-width: 100%;
         display: flex;
-        background-color: var(--footer-background-color);
+        background-color: var(--mobile-nav-background-color);
         -webkit-box-shadow: 0px 0px 20px 5px var(--shadow-color-1);
         -moz-box-shadow: 0px 0px 20px 5px var(--shadow-color-1);
         box-shadow: 0px 0px 20px 5px var(--shadow-color-1);
@@ -160,5 +160,35 @@ nav {
 .list-mobile-active {
     padding-bottom: 5px;
     display: flex !important;
-    background-color: var(--footer-background-color);
+    background-color: var(--mobile-nav-background-color);
+}
+
+.motive-changer-div{
+    min-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.motive-changer-button{
+    margin-right: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--motive);
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .motive-changer-button{
+        margin-right: 0px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: var(--motive);
+        border: none;
+        outline: none;
+    }
 }

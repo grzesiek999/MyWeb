@@ -1,5 +1,6 @@
 const copyEmail = document.querySelector('#copy-email-icon');
 const changeMotiveButton = document.querySelector('#motive-change');
+const changeMotiveButtonMobile = document.querySelector('#motive-change-mobile');
 
 
 function copy_email() {
@@ -16,8 +17,11 @@ function change_motive() {
         document.documentElement.style.setProperty('--text-color-3', 'var(--text-color-3-whitemotive)');
         document.documentElement.style.setProperty('--body-background-color', 'var(--body-background-color-whitemotive)');
         document.documentElement.style.setProperty('--nav-background-color', 'var(--nav-background-color-whitemotive)');
+        document.documentElement.style.setProperty('--mobile-nav-background-color', 'var(--mobile-nav-background-color-whitemotive)');
         document.documentElement.style.setProperty('--footer-background-color', 'var(--footer-background-color-whitemotive)');
         document.documentElement.style.setProperty('--education-achievement-background-color', 'var(--education-achievement-background-color-whitemotive)');
+        document.documentElement.style.setProperty('--icons-background-color', 'var(--icons-background-color-whitemotive)');
+        document.documentElement.style.setProperty('--email-icon-background', 'var(--email-icon-background-whitemotive)');
         document.documentElement.style.setProperty('--shadow-color-1', 'var(--shadow-color-1-whitemotive)');
         document.documentElement.style.setProperty('--shadow-color-2', 'var(--shadow-color-2-whitemotive)');
         document.documentElement.style.setProperty('--border-liner-color-1', 'var(--border-liner-color-1-whitemotive)');
@@ -31,8 +35,11 @@ function change_motive() {
         document.documentElement.style.setProperty('--text-color-3', 'var(--text-color-3-darkmotive)');
         document.documentElement.style.setProperty('--body-background-color', 'var(--body-background-color-darkmotive)');
         document.documentElement.style.setProperty('--nav-background-color', 'var(--nav-background-color-darkmotive)');
+        document.documentElement.style.setProperty('--mobile-nav-background-color', 'var(--mobile-nav-background-color-darkmotive)');
         document.documentElement.style.setProperty('--footer-background-color', 'var(--footer-background-color-darkmotive)');
         document.documentElement.style.setProperty('--education-achievement-background-color', 'var(--education-achievement-background-color-darkmotive)');
+        document.documentElement.style.setProperty('--icons-background-color', 'var(--icons-background-color-darkmotive)');
+        document.documentElement.style.setProperty('--email-icon-background', 'var(--email-icon-background-darkmotive)');
         document.documentElement.style.setProperty('--shadow-color-1', 'var(--shadow-color-1-darkmotive)');
         document.documentElement.style.setProperty('--shadow-color-2', 'var(--shadow-color-2-darkmotive)');
         document.documentElement.style.setProperty('--border-liner-color-1', 'var(--border-liner-color-1-darkmotive)');
@@ -44,6 +51,7 @@ function change_motive() {
 }
 
 changeMotiveButton.addEventListener('click', change_motive);
+changeMotiveButtonMobile.addEventListener('click', change_motive);
 
 copyEmail.addEventListener('click', copy_email);
 

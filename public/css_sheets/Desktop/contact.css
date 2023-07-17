@@ -55,8 +55,27 @@
     }
 }
 
+.email-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.copy-email-icon-div {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--email-icon-background);
+    border: 1px solid var(--email-icon-background);
+    -webkit-box-shadow: 0px 0px 10px 10px var(--email-icon-background);
+    -moz-box-shadow: 0px 0px 10px 10px var(--email-icon-background);
+    box-shadow: 0px 0px 10px 10px var(--email-icon-background);
+}
+
 .contact-div-container img {
-    margin-left: 40px;
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -65,7 +84,6 @@
 
 @media only screen and (max-width: 1100px) {
     .contact-div-container img {
-        margin-left: 40px;
         width: 23px;
         height: 23px;
         cursor: pointer;

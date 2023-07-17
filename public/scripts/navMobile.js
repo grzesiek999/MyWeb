@@ -11,6 +11,7 @@ function openMenu() {
         document.querySelector('#offer-mobile').classList.add('list-mobile');
         document.querySelector('#education-mobile').classList.add('list-mobile');
         document.querySelector('#contact-mobile').classList.add('list-mobile');
+        document.querySelector('#motive-mobile').classList.add('list-mobile');
         menuFlag = true;
     }
     else {
@@ -19,6 +20,7 @@ function openMenu() {
         document.querySelector('#offer-mobile').classList.remove('list-mobile');
         document.querySelector('#education-mobile').classList.remove('list-mobile');
         document.querySelector('#contact-mobile').classList.remove('list-mobile');
+        document.querySelector('#motive-mobile').classList.remove('list-mobile');
         menuFlag = false;
     }
 }
@@ -75,6 +77,8 @@ function switchPage(){
         document.querySelector('#offer-mobile').classList.remove('list-mobile');
         document.querySelector('#education-mobile').classList.remove('list-mobile');
         document.querySelector('#contact-mobile').classList.remove('list-mobile');
+        document.querySelector('#motive-mobile').classList.remove('list-mobile');
+
         menuFlag = false;
 
         display_container_mobile('about_me-mobile');
@@ -101,6 +105,8 @@ function switchPage(){
         document.querySelector('#offer-mobile').classList.remove('list-mobile');
         document.querySelector('#education-mobile').classList.remove('list-mobile');
         document.querySelector('#contact-mobile').classList.remove('list-mobile');
+        document.querySelector('#motive-mobile').classList.remove('list-mobile');
+
         menuFlag = false;
 
         display_container_mobile('skills-mobile');
@@ -127,6 +133,8 @@ function switchPage(){
         document.querySelector('#offer-mobile').classList.remove('list-mobile');
         document.querySelector('#education-mobile').classList.remove('list-mobile');
         document.querySelector('#contact-mobile').classList.remove('list-mobile');
+        document.querySelector('#motive-mobile').classList.remove('list-mobile');
+
         menuFlag = false;
 
         display_container_mobile('offer-mobile');
@@ -153,6 +161,8 @@ function switchPage(){
         document.querySelector('#offer-mobile').classList.remove('list-mobile');
         document.querySelector('#education-mobile').classList.remove('list-mobile');
         document.querySelector('#contact-mobile').classList.remove('list-mobile');
+        document.querySelector('#motive-mobile').classList.remove('list-mobile');
+
         menuFlag = false;
 
         display_container_mobile('education-mobile');
@@ -179,6 +189,8 @@ function switchPage(){
         document.querySelector('#offer-mobile').classList.remove('list-mobile');
         document.querySelector('#education-mobile').classList.remove('list-mobile');
         document.querySelector('#contact-mobile').classList.remove('list-mobile');
+        document.querySelector('#motive-mobile').classList.remove('list-mobile');
+
         menuFlag = false;
 
         display_container_mobile('contact-mobile');
