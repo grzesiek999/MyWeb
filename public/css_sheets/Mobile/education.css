@@ -13,6 +13,16 @@
     flex-direction: column;
 }
 
+@media only screen and (max-width: 699px) {
+    .education-container {
+        margin-top: 50px;
+        margin-bottom: 80px;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .education-achievements-container {
     display: flex;
     flex-direction: column;

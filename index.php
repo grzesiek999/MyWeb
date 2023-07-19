@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grzegorz Pasich"/>
+    <meta name="copyright" content="Grzegorz Pasich"/>
+    <meta name="description" content="Grzegorz Pasich - programming services, creating websites, online-shops, host websites, creating logo,
+    advertisements banners, business card, advertisements videos, computer service.">
+    <meta name="keywords" content="wolbrom, olkusz, kraków, crackow, miechów, katowice, programista, programming, developer, grzegorz, grzesiek, pasich, 
+    politechnika, web, junior, mid, senior, fullstack, javascript, css, html, kielce, małopolskie, śląsk, świętokszyskie, gliwice, chorzów, bytom, tychy,
+    praca, strona, internetowa, sklep, internetowy, hosting, portfolio, services, computer, laptop, notebook, laptops, notebooks, it, help,
+    online, shop, logo, banner, advertisements, advertisement, banners, logos, video, videos, pomoc, komputerowy, serwis, laptop, laptopów, laptopy,
+    frontend, student, studies, programowanie">
+    
     <title>Grzegorz Pasich</title>
-
 
 
     <link rel="stylesheet" type="text/css" href="./public/css_sheets/Main.css">
@@ -30,6 +39,7 @@
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 851px)" href="./public/css_sheets/Desktop/contact.css">
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
     <script async src="./public/scripts/main.js"></script>
     <script async src="./public/scripts/nav.js"></script>
     <script async src="./public/scripts/navMobile.js"></script>
@@ -41,15 +51,15 @@
 </head>
 <body>
 
-    <? include("./public/views/header.html") ?>
+    <?php include("./public/views/header.html") ?>
     <main>
-        <? include("./public/views/aboutMe.html") ?>
-        <? include("./public/views/skills.html") ?>
-        <? include("./public/views/offer.html") ?>
-        <? include("./public/views/education.html") ?>
-        <? include("./public/views/contact.html") ?>
+        <?php include("./public/views/aboutMe.html") ?>
+        <?php include("./public/views/skills.html") ?>
+        <?php include("./public/views/offer.html") ?>
+        <?php include("./public/views/education.html") ?>
+        <?php include("./public/views/contact.html") ?>
     </main>    
-    <? include("./public/views/footer.html") ?>
+    <?php include("./public/views/footer.html") ?>
     
 </body>
 </html>

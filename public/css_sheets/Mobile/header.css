@@ -47,8 +47,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 12px;
     background-color: var(--icons-background-color);
     -webkit-box-shadow: 0px 0px 5px 5px var(--icons-background-color);
@@ -62,8 +62,8 @@ nav {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         border-radius: 12px;
         background-color: var(--icons-background-color);
         -webkit-box-shadow: 0px 0px 5px 5px var(--icons-background-color);
@@ -73,14 +73,14 @@ nav {
 }
 
 .menu-icon-div img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 }
 
 @media only screen and (max-width: 500px) {
     .menu-icon-div img {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -94,8 +94,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 53px;
-    height: 53px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     background-color: var(--icons-background-color);
     -webkit-box-shadow: 0px 0px 5px 5px var(--icons-background-color);
@@ -108,8 +108,8 @@ nav {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 42px;
-        height: 42px;
+        width: 37px;
+        height: 37px;
         border-radius: 50%;
         background-color: var(--icons-background-color);
         -webkit-box-shadow: 0px 0px 5px 5px var(--icons-background-color);
@@ -119,14 +119,14 @@ nav {
 }
 
 .navigation-icon-div img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 }
 
 @media only screen and (max-width: 500px) {
     .navigation-icon-div img {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -173,8 +173,8 @@ nav {
 
 .motive-changer-button{
     margin-right: 0px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: var(--motive);
     border: none;
@@ -184,8 +184,8 @@ nav {
 @media only screen and (max-width: 500px) {
     .motive-changer-button{
         margin-right: 0px;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         background-color: var(--motive);
         border: none;

@@ -4,7 +4,20 @@ const changeMotiveButtonMobile = document.querySelector('#motive-change-mobile')
 
 
 function copy_email() {
-    navigator.clipboard.writeText("grzegorz.pasich@o2.pl");
+    var emailText = "grzegorz.pasich@o2.pl";
+    var clipboard = new ClipboardJS('#copy-email-icon', {
+        text: function() {
+            return emailText;
+        }
+    });
+
+    clipboard.on('success', function(e) {
+        console.log('Skopiowano do schowka:', e.text);
+    });
+
+    clipboard.on('error', function(e) {
+        console.error('Błąd kopiowania do schowka:', e.trigger);
+    });
 }
 
 function change_motive() {
@@ -57,7 +70,7 @@ copyEmail.addEventListener('click', copy_email);
 
 window.addEventListener('scroll', function() {
     var element = document.querySelector('.mobile-socials-container-div');
-    if (window.scrollY >= 280) {
+    if (window.scrollY >= 210) {
         element.style.display = 'flex';
     } else {
         element.style.display = 'none';
