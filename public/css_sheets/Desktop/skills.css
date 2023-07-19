@@ -106,7 +106,7 @@
     animation-fill-mode: forwards;
 }
 
-.skills-content ul li#a19, li#a11, li#a12, li#a13, li#a14, li#a15, li#a16, li#a17, li#a18{
+.skills-content ul li#a20, li#a19, li#a11, li#a12, li#a13, li#a14, li#a15, li#a16, li#a17, li#a18{
     opacity: 0;
     animation: context-load-animation 3s;
     animation-fill-mode: forwards;
