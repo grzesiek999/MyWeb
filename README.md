@@ -2,7 +2,7 @@
 <br />
 
 ### My own website created by me.
-### On my website you can found information about me, see my offer, what skills i have and found my contact details.
+## On my website you can found information about me, see my offer, what skills i have and found my contact details.
 
 <br />
 
